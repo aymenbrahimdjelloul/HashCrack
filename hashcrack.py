@@ -322,7 +322,7 @@ def main():
           f"{' ' * 30}Attempts per second : {int(hash_crack_obj.ATTEMPTS_PER_SECOND)}")
 
     # Ask the user
-    answer = str(input("\nAre you ready to start ? [Y|N]")).lower()
+    answer = str(input("\nAre you ready to start ? [Y|N]"))
     if answer.upper() == "Y":
         # Start the Cracking
         hash_crack_obj.crack()
